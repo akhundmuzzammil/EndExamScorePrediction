@@ -62,6 +62,14 @@ EndExamScorePrediction is a tool designed to predict end-semester exam scores ba
 - **Data Quality:**  
   The dataset is curated to reflect a variety of cases ensuring a robust training process.
 
+## Dataset Reference
+
+This project uses a Kaggle dataset specifically chosen to explain simple and multiple linear regression concepts. Unlike typical datasets such as height-weight or house prices, this dataset relates directly to the academic life of engineering graduates by capturing classroom attendance and exam performance.
+
+The dataset is small, recording the attendance (in percentage), MSE marks out of 30, and ESE marks out of 70 for 73 students. Data was collected in 2014 while teaching a Software Architecture course at Dr Babasaheb Ambedkar Technological University Lonere.
+
+[Kaggle Dataset Link](https://www.kaggle.com/datasets/akiwelekar/predictingese)
+
 ## Models
 - **Pre-trained Linear Regression:**  
   The model (`linear_regression_model.pkl`) predicts ESE marks from the input features.
